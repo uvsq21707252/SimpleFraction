@@ -2,13 +2,11 @@ public class Main {
 
 	public static void main(String[] args){
 
-		int n, d;
+		fraction M = new fraction(2,3);
 
-		n = 8; d = 9;
-
-		System.out.println(" fraction = " + n + "/" + d + "\n");
-
+		System.out.println(" fraction 1 =" + M.toString() + "\n");
 
 	}
+
 }
 
